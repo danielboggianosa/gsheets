@@ -1,0 +1,24 @@
+{
+  "name": "gsheets",
+  "version": "1.0.0",
+  "description": "Conexión con API Sheets de Google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielboggianosa/gsheets.git"
+  },
+  "keywords": [
+    "Google",
+    "API",
+    "Sheets"
+  ],
+  "author": "Daniel Boggiano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielboggianosa/gsheets/issues"
+  },
+  "homepage": "https://github.com/danielboggianosa/gsheets#readme"
+}
