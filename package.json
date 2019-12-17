@@ -4,7 +4,8 @@
   "description": "Conexión con API Sheets de Google",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -w",
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/danielboggianosa/gsheets/issues"
   },
-  "homepage": "https://github.com/danielboggianosa/gsheets#readme"
+  "homepage": "https://github.com/danielboggianosa/gsheets#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "promise-mysql": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
