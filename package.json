@@ -2,7 +2,7 @@
   "name": "gsheets",
   "version": "1.0.0",
   "description": "Conexión con API Sheets de Google",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "tsc -w",
     "dev": "nodemon"
